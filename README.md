@@ -1,17 +1,37 @@
-# song_book
+# 🎵 Skylarkian tunes
 
-A new Flutter project.
+An offline-first Flutter application for managing and viewing songs with lyrics, chords, and audio support.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- 📜 View song list with lyrics preview
+- ❤️ Mark songs as favorites
+- 💾 Local storage using Hive (No internet required)
+- 🎼 Chord support with transpose functionality (planned)
+- 🔊 Audio support (scalable to cloud in future)
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠 Tech Stack
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter
+- Hive (Local NoSQL Database)
+- Dart
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🏗 Architecture
+
+The project follows a simple clean separation approach:
+
+lib/
+- data/
+  - models/
+  - services/
+- presentation/
+  - screens/
+  - widgets/
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/YOUR_USERNAME/song-book-app.git
+cd song-book-app
+flutter pub get
+flutter run
