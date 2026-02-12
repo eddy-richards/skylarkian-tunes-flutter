@@ -69,7 +69,7 @@ class _SongListScreenState extends State<SongListScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Song Book 🎵"),
+        title: const Text("Skylarkian Tunes 🎵"),
       ),
       body: ValueListenableBuilder(
         valueListenable: songBox.listenable(),

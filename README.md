@@ -31,7 +31,7 @@ lib/
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/song-book-app.git
+git clone https://github.com/eddy-richards/skylarkian-tunes-flutter.git
 cd song-book-app
 flutter pub get
 flutter run
